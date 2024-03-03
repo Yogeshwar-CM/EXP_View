@@ -1,0 +1,46 @@
+:root {
+  --primary: #1c1c1c;
+}
+
+body {
+  font-family: "Poppins";
+  margin: 0;
+  background-color: var(--primary);
+}
+
+.unformat-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.content {
+  color: #fff;
+  padding-top: 2vw;
+  margin-left: 20vw;
+  font-size: 1.5rem;
+}
+
+li {
+  list-style: numbers;
+}
+
+.inner {
+  margin-left: 4rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.inner li {
+  font-size: 1.3rem;
+  list-style: lower-alpha;
+}
+
+pre {
+  background-color: #141414;
+  border: 1px solid #232323;
+  padding: 1rem;
+  overflow-x: auto;
+  width: 70vw;
+  font-family: "Courier New", monospace;
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
